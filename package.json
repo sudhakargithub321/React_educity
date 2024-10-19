@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sudhakargithub321.github.io.React_educity",
+  "homepage": "https://sudhakargithub321/github.io/deploy_educity",
   "name": "edusity",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
